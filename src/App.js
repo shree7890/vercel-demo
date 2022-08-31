@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 
@@ -16,7 +15,7 @@ function App() {
     <div className="App">
       <h3>count : {count}</h3>
       <button onClick={incrementCount}>increment</button>
-      <button onClick={decrementCount}>increment</button>
+      <button onClick={decrementCount}>decrement</button>
     </div>
   );
 }
